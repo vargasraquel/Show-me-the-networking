@@ -1,0 +1,79 @@
+body {
+	background-color: gray;
+	font-family: sans-serif;
+}
+
+#cabecalho {
+	border: black 1px solid;
+	padding-left: 50px;
+}
+
+h1 {
+	color: #003b6c;
+}
+
+#conteudo {
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 2%;
+	justify-content: center;
+}
+
+#logoLoja {
+	max-width:6000px;
+    max-height:500px;
+    width: 100%;
+    height: auto;
+}
+
+#imgGeral {
+	margin-bottom: 30px;
+}
+
+h2 {
+	text-align: center;
+}
+
+#cronogramaDestaque {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#palestrantesDestaque {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#card-img-top {
+	widht: 30%
+}
+
+#rodape {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb (110, 110, 110);
+	margin-top: 30px;
+}
+
+#redesSociais {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+	padding-bottom: 50px;
+	
+.rede {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#logoWhats {
+	max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
