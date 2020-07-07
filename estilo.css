@@ -1,79 +1,75 @@
 body {
-	background-color: gray;
-	font-family: sans-serif;
-}
+	background-image: url(fundo.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}		
 
 #cabecalho {
-	border: black 1px solid;
-	padding-left: 50px;
+	position: absolute;
+	width: 	669px;
+	height: 167px;
+	left: 	-10px;
+	top: 	125px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	/* or 117% */
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #6DF42E;	
+}
+
+#texto {
+	position: absolute;
+	width: 671px;
+	height: 454px;
+	left: 99px;
+	top: 254px;
+	font-family: Content;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	/* or 117% */
+	color: #FFFFFF;
+}
+
+#Texto2 {
+	position: absolute;
+	width: 	509px;
+	height: 366px;
+	left: 	8px;
+	top: 	472px;
+	font-family: Content;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 	18px;
+	line-height:28px;
+	/* or 156% */
+	color: #FFFFFF;
+}
+
+#logo {
+	position: absolute;
+	width: 	251px;
+	height: 72px;
+	left: 	68px;
+	top: 	26px;
 }
 
 h1 {
-	color: #003b6c;
-}
-
-#conteudo {
-	background-color: white;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding: 2%;
-	justify-content: center;
-}
-
-#logoLoja {
-	max-width:6000px;
-    max-height:500px;
-    width: 100%;
-    height: auto;
-}
-
-#imgGeral {
-	margin-bottom: 30px;
-}
-
-h2 {
-	text-align: center;
-}
-
-#cronogramaDestaque {
-	margin-bottom: 30px;
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-}
-
-#palestrantesDestaque {
-	margin-bottom: 30px;
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-}
-
-#card-img-top {
-	widht: 30%
-}
-
-#rodape {
-	display: flex;
-	justify-content: space-between;
-	background-color: rgb (110, 110, 110);
-	margin-top: 30px;
-}
-
-#redesSociais {
-	margin-left: 20px;
-	margin-right: 20px;
-	color: white;
-	padding-bottom: 50px;
-	
-.rede {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-#logoWhats {
-	max-width:30px;
-    max-height:30px;
-    width: auto;
-    height: auto;
+	position: absolute;
+	width: 	182px;
+	height: 28px;
+	left: 	700px;
+	top: 	100px;
+	font-family: Content;
+	font-style: normal;
+	font-weight: bold;
+	font-size:   30px;
+	line-height: 28px;
+	/* identical to box height, or 93% */
+	color: #FFFFFF;
 }
