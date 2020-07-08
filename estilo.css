@@ -1,5 +1,5 @@
 body {
-	background-image: url(fundo.jpg);
+	background-image: url(fundo.jpeg);
 	background-attachment: fixed;
 	background-size: 100%;
 }		
@@ -21,27 +21,27 @@ body {
 	color: #6DF42E;	
 }
 
-#texto {
+#informação {
 	position: absolute;
-	width: 671px;
+	width: 	671px;
 	height: 454px;
-	left: 99px;
-	top: 254px;
+	left: 	5px;
+	top: 	250px;
 	font-family: Content;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 48px;
-	line-height: 56px;
+	font-size: 	48px;
+	line-height:50px;
 	/* or 117% */
 	color: #FFFFFF;
 }
 
-#Texto2 {
+#Texto {
 	position: absolute;
 	width: 	509px;
 	height: 366px;
 	left: 	8px;
-	top: 	472px;
+	top: 	425px;
 	font-family: Content;
 	font-style: normal;
 	font-weight: normal;
@@ -59,16 +59,15 @@ body {
 	top: 	26px;
 }
 
-h1 {
+#convidados {
 	position: absolute;
 	width: 	182px;
 	height: 28px;
-	left: 	700px;
-	top: 	100px;
-	font-family: Content;
+	left: 	800px;
+	top: 	195px;
 	font-style: normal;
 	font-weight: bold;
-	font-size:   30px;
+	font-size:   20px;
 	line-height: 28px;
 	/* identical to box height, or 93% */
 	color: #FFFFFF;
@@ -76,26 +75,37 @@ h1 {
 
 .time {
 	margin-left: 30px;
-	margin-right: 30px;
+	margin-right:30px;
 	justify-content: center;
 	font-size: 30px;
+	color: #FFFFFF;
 }
 
 .time h2 {
 	font-size: 50px;
+	color: #FFFFFF;
 }
 	
 #countdown {
 	justify-content: center;
+	color: #FFFFFF;
 }
 
 #event {
-	margin-bottom: 750px;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-bottom: 	750px;
+	margin-left: 	30px;
+	margin-right: 	30px;
 }
 
 .button-small-text {
-	margin-bottom: 750px;
-	justify-content: center;
+	position: absolute;
+	left: 	979px;
+	top: 	-300px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top{
+	position: absolute;
+	left: 700px;
+	top: 260px;
 }
