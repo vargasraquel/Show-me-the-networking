@@ -1,7 +1,8 @@
 body {
-	background-image: url(fundo.jpeg);
+	background-image: url(fundo.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
+	background: no-repeat;
 }		
 
 #cabecalho {
